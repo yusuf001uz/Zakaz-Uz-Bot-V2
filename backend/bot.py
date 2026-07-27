@@ -9,7 +9,7 @@ from models import Order
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_CHANNEL_ID = os.getenv("ADMIN_CHANNEL_ID")
-WEB_APP_URL = os.getenv("WEB_APP_URL", "https://zakaz-bot-uz.loca.lt")
+WEB_APP_URL = os.getenv("WEB_APP_URL", "https://zakaz-uz-bot.netlify.app")
 
 bot = Bot(token=BOT_TOKEN)
 dp = Dispatcher()
